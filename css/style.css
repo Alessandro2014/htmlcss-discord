@@ -53,6 +53,10 @@
     color: white;
 }
 
+.col.top_menu a:hover {
+    text-decoration: underline;
+}
+
 .col.btt_login {
     width: 20%;
     text-align: right;
@@ -123,36 +127,68 @@
 
 /* / header */
 
-/* section 1 */
+/* section 1 e 3*/
 
-.section_1 {
-    margin: 100px 0;
+.section_1, .section_3 {
+    margin: 150px 0;
+    height: 90vh;
 }
 
 .section_1 img {
     width: 800px;
     float: left;
     vertical-align: middle;
-
+    margin-right: 100px;
 }
 
-.text_main_right {
-    width: 350px;
+.section_3 img {
+    width: 800px;
+    float: left;
+    vertical-align: middle;
+    margin-right: 100px;
+}
+
+/* section 2  */
+
+.section_2 {
+    margin: 150px 0;
+    height: 90vh;
+}
+
+.section_2 img {
+    width: 800px;
+    vertical-align: middle;
     float: right;
-    text-align: left;
 }
 
-.text_main_right h2 {
+/* utils text section */
+
+.text_main_left{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+}
+
+.text_main_right  {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+}
+
+section h2 {
     font-size: 44px;
     line-height: 1.3em;
     font-weight: 800;
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
-.text_main_right p {
+section p {
     margin-top: 20px;
     font-size: 20px;
-    line-height: 1.4em;
+    line-height: 1.6em;
 }
+
+/* /utils text section */
+
 
 
