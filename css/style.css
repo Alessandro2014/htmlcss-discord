@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Utils */
+
+.container { 
+    max-width: 1200px;
+    background-color: lightslategray;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content:"";
+    display; table;
+    clear: both;
+}
+
+/* Header */
+
+.col {
+    height: 80px;
+    float: left;
+    background-color: rgb(49, 97, 84224);
+    line-height: 80px;
+}
+
+.logo {
+    width: 20%;
+    vertical-align: middle;
+}
+
+.top_menu {
+    width: 60%;
+    text-align: center;
+}
+
+.col.top_menu li {
+    display: inline-block;
+}
+
+.col.top_menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+.col.btt_login {
+    width: 20%;
+    text-align: right;
+}
+
+.col.btt_login a {
+    text-decoration: none;
+    background-color: white;
+    margin-right: 20px;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
