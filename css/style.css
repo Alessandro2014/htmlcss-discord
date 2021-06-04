@@ -8,8 +8,7 @@
 /* Utils */
 
 .container { 
-    max-width: 1200px;
-    background-color: lightslategray;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -69,7 +68,7 @@
 }
 
 #jumbotron {
-    height: 500px;
+    height: 600px;
     background-image: url("../img/jumbo.png");
     background-size: cover;
     background-position: center;
@@ -93,7 +92,7 @@
     margin-bottom: 70px;
 }
 
-p {
+.text_jumbotron p {
     font-size: 20px;
     margin: 50px;
 }
@@ -121,3 +120,39 @@ p {
     margin-left: 10px;
     background-color: black;
 }
+
+/* / header */
+
+/* section 1 */
+
+.section_1 {
+    margin: 100px 0;
+}
+
+.section_1 img {
+    width: 800px;
+    float: left;
+    vertical-align: middle;
+
+}
+
+.text_main_right {
+    width: 350px;
+    float: right;
+    text-align: left;
+}
+
+.text_main_right h2 {
+    font-size: 44px;
+    line-height: 1.3em;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.text_main_right p {
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.4em;
+}
+
+
