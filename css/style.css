@@ -134,17 +134,18 @@
 .section_3 {
     margin: 150px 0;
     height: 80vh;
+    padding: 60px;
 }
 
 .section_1 img {
-    width: 800px;
+    width: 700px;
     float: left;
     vertical-align: middle;
     margin-right: 100px;
 }
 
 .section_3 img {
-    width: 800px;
+    width: 700px;
     float: left;
     vertical-align: middle;
     margin-right: 100px;
@@ -152,13 +153,17 @@
 
 
 .section_2 img {
-    width: 800px;
+    width: 700px;
     vertical-align: middle;
     float: right;
 }
 
-.section_4 {
+.bg_gray {
     background-color: rgb(225, 226, 228);
+
+}
+
+.section_4 {
     position: relative;
     margin-top: 150px 0;
     height: 130vh;
@@ -194,16 +199,11 @@
     margin-bottom: -10px;
 }
 
-.container_footer {
-    height: 60vh;
-    background-color: rgb(35,39,42);
-}
-
 /* utils text section */
 
 .text_main_left, .text_main_right{
     height: 400px;
-    width: 400px;
+    width: 350px;
     display: inline-block;
 }
 
@@ -235,4 +235,46 @@ section p {
 /* /utils text section */
 
 /* footer */
+
+#bg_footer {
+    height: 60vh;
+    background-color: rgb(35,39,42);
+    padding: 80px 150px 10px 150px;
+
+}
+
+#social {
+    font-size: 28px;
+    width: 25%;
+}
+
+.cont_footer > div {
+    width: calc((75% / 4) - 100px);
+    float: left;    
+    margin-left: 50px;
+}
+
+
+.cont_footer nav li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.cont_footer nav li a:hover {
+    text-decoration: underline;
+}
+
+.cont_footer nav li a {
+    text-decoration: none;
+    color: white;
+    font-style: initial;
+}
+
+footer h5 {
+    font-size: 18px;
+}
+
+footer h4, h5 {
+    color: rgb(88,101,242);
+}
 
