@@ -196,7 +196,6 @@
 
 .btt_bottom img {
     width: 50%;
-    margin-bottom: -10px;
 }
 
 /* utils text section */
@@ -246,9 +245,10 @@ section p {
 #social {
     font-size: 28px;
     width: 25%;
+    padding-right: 30px;
 }
 
-.cont_footer > div {
+.cont_footer div {
     width: calc((75% / 4) - 100px);
     float: left;    
     margin-left: 50px;
@@ -278,3 +278,33 @@ footer h4, h5 {
     color: rgb(88,101,242);
 }
 
+hr {
+    border-color: rgb(88,101,242);
+    width: 100%;
+    margin: 0 auto;
+}
+
+#language {
+    font-size: 12px;
+    color: lightgray;
+}
+
+footer .fab {
+    margin: 20px 20px 0 0;
+    font-size: 24px;
+}
+
+footer #logo-footer {
+    margin-top: 30px;
+    height: 40px;
+    width: 100%;
+    color: white;
+
+}
+
+footer #logo-footer > span {
+    margin-left: 75%;
+    background-color: #98A7F8;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
